@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ultimate Jigsaw Puzzle — Ücretsiz İndir</title>
+<meta name="description" content="150+ HD fotoğraf, 8'den 100 parçaya zorluk, kendi fotoğrafından yapboz ve 300 bölüm. Google Play'de ücretsiz.">
+<meta property="og:title" content="Ultimate Jigsaw Puzzle">
+<meta property="og:description" content="Rahatlatıcı yapboz oyunu: 150+ HD fotoğraf, kendi fotoğrafın, 300 bölüm. Ücretsiz.">
+<meta property="og:image" content="https://yasindogru119.github.io/ultimate-jigsaw-ikon.png">
+<meta name="theme-color" content="#0c0920">
+<style>
+:root{--bg:#0c0920;--card:#1a1440;--line:#2a2260;--ink:#fff;--gold:#ffc35a;--teal:#3fd1b5;--muted:#b9b3d6}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:radial-gradient(90% 50% at 50% 0%,#2e1d6e 0%,var(--bg) 70%) var(--bg);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:520px;margin:0 auto;padding:44px 20px 56px;text-align:center}
+img.icon{width:120px;height:120px;border-radius:28px;box-shadow:0 12px 40px rgba(120,90,255,.35)}
+h1{font-size:31px;line-height:1.15;margin:22px 0 6px}
+h1 span{color:var(--gold)}
+.tag{color:var(--muted);margin:0 0 28px}
+.btn{display:block;background:linear-gradient(180deg,#4fe0c4,#2fb89e);color:#06231d;text-decoration:none;font-weight:800;font-size:19px;padding:18px 20px;border-radius:16px;box-shadow:0 10px 26px rgba(63,209,181,.3)}
+.btn:active{transform:scale(.98)}
+.free{display:inline-block;margin-top:12px;color:var(--teal);font-weight:600;font-size:15px}
+ul{list-style:none;margin:32px 0 0;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 20px}
+li{padding:8px 0;border-bottom:1px solid var(--line)}li:last-child{border:0}
+.hint{font-size:14px;color:var(--muted);margin-top:22px}
+.lang{margin-top:18px;font-size:14px}
+.lang a{color:var(--muted)}
+footer{margin-top:30px;font-size:13px;color:var(--muted)}
+footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<img class="icon" src="ultimate-jigsaw-ikon.png" alt="Ultimate Jigsaw Puzzle">
+<h1>Ultimate Jigsaw <span>Puzzle</span></h1>
+<p class="tag" data-tr="Rahatlatıcı yapboz keyfi — her gün yeni bir resim" data-en="Relaxing jigsaw fun — a new picture every day">Rahatlatıcı yapboz keyfi — her gün yeni bir resim</p>
+<a class="btn" href="https://play.google.com/store/apps/details?id=com.y2soft.ultimatejigsaw" target="_blank" rel="noopener" data-tr="▶&nbsp; Google Play'den İndir" data-en="▶&nbsp; Get it on Google Play">▶&nbsp; Google Play'den İndir</a>
+<span class="free" data-tr="✓ Tamamen ücretsiz" data-en="✓ Free to play">✓ Tamamen ücretsiz</span>
+<ul>
+<li data-tr="🖼️ 150+ HD fotoğraf: şehirler, doğa, deniz, araçlar ve daha fazlası" data-en="🖼️ 150+ HD photos: cities, nature, sea, vehicles and more">🖼️ 150+ HD fotoğraf: şehirler, doğa, deniz, araçlar ve daha fazlası</li>
+<li data-tr="🎯 8'den 100 parçaya, zorluğu sen seç" data-en="🎯 8 to 100 pieces, you choose the challenge">🎯 8'den 100 parçaya, zorluğu sen seç</li>
+<li data-tr="📸 Kendi fotoğrafını yapboza çevir" data-en="📸 Turn your own photos into puzzles">📸 Kendi fotoğrafını yapboza çevir</li>
+<li data-tr="🏆 300 bölüm ve her gün yeni günlük yapboz" data-en="🏆 300 levels and a new daily puzzle">🏆 300 bölüm ve her gün yeni günlük yapboz</li>
+</ul>
+<p class="hint" data-tr="Buton açılmazsa sağ üstteki ⋮ menüsünden “Tarayıcıda aç”ı seçin." data-en="If the button doesn't open, tap ⋮ at the top right and choose “Open in browser”.">Buton açılmazsa sağ üstteki ⋮ menüsünden “Tarayıcıda aç”ı seçin.</p>
+<p class="lang"><a href="#" id="sw">English</a></p>
+<footer><a href="ultimate-jigsaw/privacy/" data-tr="Gizlilik politikası" data-en="Privacy policy">Gizlilik politikası</a> · <a href="mailto:lisansdogru@gmail.com" data-tr="İletişim" data-en="Contact">İletişim</a></footer>
+</main>
+<script>
+(function(){
+  var sw=document.getElementById('sw');
+  function set(l){
+    document.documentElement.lang=l;
+    document.querySelectorAll('[data-'+l+']').forEach(function(e){e.innerHTML=e.getAttribute('data-'+l)});
+    sw.textContent=l==='tr'?'English':'Türkçe';
+    document.title=l==='tr'?'Ultimate Jigsaw Puzzle — Ücretsiz İndir':'Ultimate Jigsaw Puzzle — Free Download';
+    cur=l;
+  }
+  var cur='tr';
+  if(!/^tr/i.test(navigator.language||''))set('en');
+  sw.onclick=function(e){e.preventDefault();set(cur==='tr'?'en':'tr')};
+})();
+</script>
+</body>
+</html>
